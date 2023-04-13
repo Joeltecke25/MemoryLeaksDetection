@@ -14,11 +14,18 @@ I'm Joel Romero and I'm studing Design and Development of Videogames at CITM
 
 https://joeltecke25.github.io/MemoryLeaksDetection/
 
-## Videos and references
+## References and Videos
+### References
+
+https://en.wikipedia.org/wiki/Memory_leak
+
+https://www.it.uc3m.es/pbasanta/asng/course_notes/memory_profiler_es.html#:~:text=Valgrind%20es%20un%20sistema%20de,los%20programas%20sean%20m%C3%A1s%20estables.
 
 https://valgrind.org/
 
+https://www.makeuseof.com/what-is-a-memory-leak/
 
+### Videos:
 
 Detección de Memory Leaks (pérdidas de memoria) con Valgrind:  
 https://www.youtube.com/watch?v=NMmK8o_BZ7M&ab_channel=WhileTrueThenDream
