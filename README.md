@@ -16,5 +16,6 @@ https://joeltecke25.github.io/MemoryLeaksDetection/
 
 ## Videos and references
 
-Detección de Memory Leaks (pérdidas de memoria) con Valgrind: /n
+Detección de Memory Leaks (pérdidas de memoria) con Valgrind:
+
 https://www.youtube.com/watch?v=NMmK8o_BZ7M&ab_channel=WhileTrueThenDream
