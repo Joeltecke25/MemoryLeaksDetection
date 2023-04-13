@@ -64,11 +64,12 @@ Next, I will explain how to use Valgrind to detect and fix "memory leaks" in you
 1. Install Valgrind: To use Valgrind, you must first install it on your system. You can do it through the package manager of your operating system or by downloading it directly from the Valgrind website. 
 I recommend having a Linux virtual machine to work with if using Valgrind, as it's a good operating system that works perfectly for this kind of thing.
 
-Linux:
-
-
+Linux command:
+sudo apt-get install valgrind
 
 2. Compile the code with debugging options: In order to use Valgrind, you need to compile the program code with debugging options enabled. This allows Valgrind to access additional information about memory usage in the program.
+
+![image](https://user-images.githubusercontent.com/99950178/231749379-d699fba7-55e9-4eda-a54c-711d8e6fa126.png)
 
 3. Run Valgrind: Once the program is compiled with debugging options enabled, you can run Valgrind in your code using the "valgrind" command followed by the program name and any arguments the program needs. For example:
 
