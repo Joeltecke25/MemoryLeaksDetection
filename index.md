@@ -43,6 +43,7 @@ To prevent memory leaks in video games and other programs, developers must ensur
 - Valgrind: It is a memory analysis tool that can detect and report problems such as "memory leaks", uninitialized use of memory, memory access errors, among others.
 
 ![image](https://user-images.githubusercontent.com/99950178/231746201-d5a5e2a7-c0e7-451c-8bef-519ed965757c.png)
+![image](https://user-images.githubusercontent.com/99950178/231746815-cc20bf97-c56d-43fe-a6d8-dbb0251fbed4.png)
 
 - Visual Studio Memory Profiler: It is a memory profiling tool for Windows applications that is integrated into the Microsoft Visual Studio development environment. Provides detailed information about memory usage and can help identify memory leak problems.
 
@@ -56,3 +57,25 @@ To prevent memory leaks in video games and other programs, developers must ensur
 
 ![image](https://user-images.githubusercontent.com/99950178/231746491-8ee04fb8-981c-41c2-a484-e5a97203e416.png)
 
+## Valgrind
+
+Next, I will explain how to use Valgrind to detect and fix "memory leaks" in your code:
+
+1. Install Valgrind: To use Valgrind, you must first install it on your system. You can do it through the package manager of your operating system or by downloading it directly from the Valgrind website. 
+I recommend having a Linux virtual machine to work with if using Valgrind, as it's a good operating system that works perfectly for this kind of thing.
+
+Linux:
+
+
+
+2. Compile the code with debugging options: In order to use Valgrind, you need to compile the program code with debugging options enabled. This allows Valgrind to access additional information about memory usage in the program.
+
+3. Run Valgrind: Once the program is compiled with debugging options enabled, you can run Valgrind in your code using the "valgrind" command followed by the program name and any arguments the program needs. For example:
+
+![image](https://user-images.githubusercontent.com/99950178/231747044-129454f1-e053-467c-9323-e7f437c18887.png)
+
+4. Analyze Valgrind's report: After Valgrind has run the program, it will produce a detailed report showing any memory leaks it has detected. You will need to carefully analyze the report to identify the problems and fix them.
+
+5. Fix memory leaks: Once you have identified the memory leaks in the Valgrind report, you need to fix them in the program code. It may involve modifying the way memory is allocated or released in the program.
+
+6. Run Valgrind again: After making the fixes, recompile the program with debugging options enabled and run Valgrind again to make sure the memory leaks have been fixed.
