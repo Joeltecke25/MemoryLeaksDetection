@@ -60,8 +60,6 @@ A continuación, os explicaré cómo utilizar Valgrind para detectar y soluciona
 
 3. Ejecuta Valgrind: Una vez que el programa está compilado con las opciones de depuración habilitadas, puedes ejecutar Valgrind en el código utilizando el comando "valgrind" seguido del nombre del programa y cualquier argumento que necesite el programa. Por ejemplo:
 
-![image](https://user-images.githubusercontent.com/99950178/231745328-e06c17c6-897f-40dc-9f73-4b5185ed421a.png)
-
 4. Analiza el reporte de Valgrind: Después de que Valgrind haya ejecutado el programa, producirá un informe detallado que mostrará cualquier problema de "memory leaks" que haya detectado. Deberás analizar cuidadosamente el informe para identificar los problemas y solucionarlos.
 
 5. Corrige los problemas de "memory leaks": Una vez que hayas identificado los problemas de "memory leaks" en el informe de Valgrind, debes corregirlos en el código del programa. Puede implicar modificar la forma en que se asigna o libera memoria en el programa.
