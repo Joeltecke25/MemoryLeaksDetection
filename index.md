@@ -78,12 +78,15 @@ sudo apt-get install valgrind
 4. Analyze Valgrind's report: After Valgrind has run the program, it will produce a detailed report showing any memory leaks it has detected. You will need to carefully analyze the report to identify the problems and fix them.
 
 Summary:
+
 ![image](https://user-images.githubusercontent.com/99950178/231749819-706309b6-1c87-4b3a-89f3-e8e82bd2d2d9.png)
 
 Error:
+
 ![image](https://user-images.githubusercontent.com/99950178/231750019-e1bb686b-4b90-4fa3-a939-c077aeb9fa04.png)
 
 Leak Summary:
+
 ![image](https://user-images.githubusercontent.com/99950178/231750152-2f496310-78d5-4af7-beb4-bac3633b53e3.png)
 
 5. Fix memory leaks: Once you have identified the memory leaks in the Valgrind report, you need to fix them in the program code. It may involve modifying the way memory is allocated or released in the program.
